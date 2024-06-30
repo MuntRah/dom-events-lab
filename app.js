@@ -38,7 +38,7 @@ buttons.forEach((button) => {
       if (firstEl && secondEl && operator) {
          const num1 = parseFloat(firstEl);
         const num2 = parseFloat(secondEl);
-     let result ;
+      let result ;
         if (operator === "+") {
           result = num1 +num2;
         }  else if (operator === "-") {
